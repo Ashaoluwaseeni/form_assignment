@@ -21,7 +21,19 @@
                     <legend>Additional Details</legend>
                     <label for="bio">Biography <textarea id="bio" type="text" name="bio" rows="2" cols="15" required></textarea></label><br> 
                     <label for="image-file">Image <input id="image" type="file" name="image" placeholder="Choose file" required></label><br>
-                    <label for="number">Age Group <select><option>0 to 9year</option></select></label><br>
+                    <label for="age">Age Group</label>
+                    <select id="age" name="age" multiple>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
                 </fieldset>
 
             <fieldset>
@@ -44,14 +56,13 @@
                   </select>
                 </label>
 <br>           
-        <label for="favourite">Favourite Public Transport?
-                   <select id="name" size="4">
-                                <option>Ground</opti0n>
-                                <option>Train</option>
-                                <option>Bus</option>
-                                <option>Water</option>
-                   </select>
-                </label>
+        <label for="favourite">Favourite Public Transport?</label>
+                   <select id="dropdown" name="dropdown" size="4">
+                                <option value="">Ground</option>        
+                                <option value="1">Train</option>
+                                <option value="2">Bus</option>
+                                <option value="3">Water</option>
+                   </select> 
             </fieldset>
 </Form>
 </body>
